@@ -13,7 +13,7 @@ span {
 	  text-align: left;
     color:blue;
   /*text-align: center; you can't text align ina span it is only for minor formatting within a line*/
-   
+   /*also use p span in style*/
   }
 .italictext{
 	font-style:italic;
@@ -35,7 +35,7 @@ text-align: left;
 vertical-align: text-top;
 
 }
-/*This is for an ID it can only point to one tag in a document vs multipel for tags*/
+/*This is for an ID it can only point to one tag in a document vs multipel for .tags*/
 #rightdiv {
 color:black;
 /*this tag will be overriden if there is a more specific tag within the html block like 'span'*/
