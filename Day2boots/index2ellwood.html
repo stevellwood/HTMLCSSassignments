@@ -15,7 +15,8 @@
     <!-- It zwill only obey the first class in a tag area -->
         <h1 class="bg-primary" class="centering" > SSA Java/JavaScript 12 Week Class - Team C </h1>
         <h3 class="bg-info"> The Team C Java/JavaScript Class </h3>
-        <div id="leftdiv"  class="ltborder">
+        <div id="leftdiv" class="ltborder column">
+     <!--    this does not account for centering. it is overriding the values in divid="leftdiv" ltborder   -->
         <p class="bg-success centering">
          Things I like about this class</p>
        <ul style="list-style-type:square"><ul><ul>
@@ -27,25 +28,25 @@
 				  <li>The Instructor said he'll put effort into student evaluations</li>
 				   </ul></ul></ul></div>
 
-
-        <div id="rightdiv" class="ltborder">
+       
+        <div id="rightdiv" class="ltborder column">
         <p  class="bg-danger centering ">Things to improve about this class</p>
            <ul style="list-style-type:circle"><ul><ul>
-					  <li>Visibile lectuclass="bg-dangerres??</li>
+					  <li>Lectures are sent to us quickly</li>
 					  <li>Yes I can see the characters clearly but </li>
 					  <li>they're so large I only see 20% of the screen</li>
 					  <li>It takes too long to get a copy of the lecture notes so I can debug</li>
 					  <li>Football is a distraction as are the overhead lights</li>
-					  <li>Very slow internet</li>
 					  </ul></ul></ul></div>
           <!-- "table-borderd actually is nothing but a light grey border" -->
+<!-- a================================================================================= -->
 
-
-           <table class="table table-bordered table-condensed">
+           <table class="table table-striped table-bordered table-condensed">
            <thead class="bg-info">
-                <tr class="bg-info">
-            <th>Name</th><th>Department</th> <th>Supervisor</th> <th>Start Date</th><th>Portrait</th></tr> </thead>
-   
+               <!--  <tr class="bg-info"> -->
+                <tr>
+           <th>Name</th><th>Department</th> <th>Supervisor</th> <th>Start Date</th><th>Portrait</th></tr> </thead>
+            <tbody>
             <tr>
             <td>Michael            Clair       </td>
             <td>ODIS</td> 
@@ -181,9 +182,10 @@
             <td>August, 2015</td>
             <td><img src="spf.jpg" alt="some_text" style="width:100px;height:100px;"></td>
           </tr>
+        </tbody>
     </table>
     
-    <br><br><br><br><br><br>
+    <br><br><br><br><br>
     <div id="footer">
     <p>This page created by Steve Ellwood on Sept 12, 2016</p></div>
     </body>
